@@ -5,3 +5,7 @@ edition = "2021"
 
 [dependencies]
 macroquad = "0.4.5"
+
+[[bin]]
+name = "versao_n"      # O nome que você vai usar no terminal
+path = "src/main_n_corpos.rs" # Onde o arquivo está fisicamente
